@@ -10,13 +10,12 @@ main{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.content{
-    width: calc(100% - 200px);
-    background-color: #141922;
-    height:calc(100vh - 100px);
-}
+
 
 .container{
+    position: relative;
+
+    height:calc(100vh - 100px);
     width: 80%;
     margin: 0 auto;
     
@@ -73,11 +72,12 @@ nav li{
     font-weight: 700;
 }
 
-
+/* INFERIOR NAVBAR*/
 
 .inferior{
     color: white;
-    margin-top: 6.5rem;
+    position: absolute;
+    bottom: 1%;
     
 }
 
@@ -90,15 +90,56 @@ nav li{
 
 .inferior :first-of-type{
     color: #565656;
+    font-size:0.8rem;
 }
 
 .inferior hr{
-    margin: 1rem 0;
+    margin: .5rem 0;
 }
 
+.inferior img{
+    vertical-align: middle;
+}
 
 
 footer{
     background-color: #282828;
     height: 100px;
+}
+
+/*CONTENTS*/
+
+.content{
+    width: calc(100% - 200px);
+    background-color: #141922;
+    height:calc(100vh - 100px);
+    padding: 2rem;
+    
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.album{
+    display: flex;
+    gap: 0.5rem;    
+}
+
+.square img{
+    width:100% ;
+    margin-bottom: 0.5rem;
+}
+.square{
+    width:calc(100%/6);
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-size: 1rem;
+    line-height: 0.9rem;
+}
+
+.content span{
+    font-size: 0.7rem;
+    color: gray;
 }
