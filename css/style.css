@@ -153,7 +153,10 @@ h2{
 .content h1{
     color: white;
     margin: 1rem 0;
+    font-size: 1.6rem;
 }
+
+/* UPGRADE SECTION */
 .upgrade{
     background-color: #080b12;
     padding: 2rem 0.2rem;
@@ -172,3 +175,30 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     
 }
+
+/*MIX SECTION*/ 
+
+.mix h1{
+    margin: 1rem 0 0.2rem 0;
+}
+
+.mix .title {
+    margin-bottom: 1.5rem;
+}
+
+/* MOST POPULAR */
+
+.most-popular h1{
+    margin: 1rem 0 0.2rem 0;
+}
+
+.most-popular .title {
+    margin-bottom: 1.5rem;
+}
+
+.most-popular img{
+    border-radius: 50%;
+}
+
+
+
