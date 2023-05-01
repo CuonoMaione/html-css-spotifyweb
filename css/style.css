@@ -171,6 +171,27 @@ h2{
     color: white;
 }
 
+/*HEADER SECTION */
+
+.header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 0.7rem;
+    font-weight: 900;
+    flex-wrap: wrap;
+}
+    
+
+.header ul li{
+    border-bottom: 2px solid #141922;
+}
+
+
+
 /* UPGRADE SECTION */
 .upgrade{
     background-color: #080b12;
@@ -429,4 +450,8 @@ div.line .line-active:hover {
 
 .active-vol:hover{
     background-color: lawngreen;
+}
+
+.header ul li:hover{
+    border-bottom: 2px solid lawngreen;
 }
