@@ -139,6 +139,7 @@ nav li{
 .square{
     width:calc((100%/6) - .5rem);
     text-align: center;
+    position: relative;
 }
 
 h2{
@@ -156,6 +157,18 @@ h2{
     color: white;
     margin: 1rem 0;
     font-size: 1.6rem;
+}
+
+.button-play{
+    position: absolute;
+    top: 25%;
+    left: 34%;
+    display:none;
+}
+
+.button-play i{
+    font-size: 4.5rem;
+    color: white;
 }
 
 /* UPGRADE SECTION */
@@ -296,6 +309,13 @@ nav li {
     margin-bottom: 1rem;
 }
 
+
+
+
+
+
+
+
 @media screen and (max-width:992px) {
 
     .square{
@@ -367,3 +387,46 @@ nav li {
 
 }
 
+
+
+/*HOVER */
+
+nav span:hover{
+    color: white;
+}
+
+.playlist li:hover{
+    color: white;
+}
+
+.inferior :first-of-type:hover{
+    color: white;
+}
+
+
+.functionality:hover .button-play{
+    display:inline;
+  }
+.functionality:hover img{
+    filter: opacity(60%);
+}
+
+.upgrade button:hover{
+    transform: scale(120%);
+  }
+
+.left-footer li:hover{
+    color: white;
+}
+
+.bigplay:hover{
+    transform: scale(125%);
+}
+
+div.line .line-active:hover {
+    background-color: lawngreen
+}
+
+.active-vol:hover{
+    background-color: lawngreen;
+}
